@@ -24,9 +24,9 @@ export default function English() {
           <div>I am&nbsp;</div>
           <Typing 
             strings={[
-              "Software Engineer",
-              "Army Reservist",
-              "Full-Time Student"
+              "a Software Engineer",
+              "an Army Reservist",
+              "a Full-Time Student"
             ]}
             typeSpeed={100}
             backSpeed={40}
@@ -117,7 +117,7 @@ export default function English() {
         <p className='description2'>
           I am a Specialist "E-4" in United State Army, working as wheeled vehicle mechanic.<br/>
           I joined U.S. Army reserves a month after graduation of high school. I wanted to have multiple different experiences in life.
-          After joining Army, I became more social, hardened my mental toughiness, and learned the importance of discipline.
+          After joining Army, I became more social, hardened my mental toughness, and learned the importance of discipline.
         </p>
       </div>
 

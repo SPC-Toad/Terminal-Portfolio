@@ -1,7 +1,7 @@
 .navbar {
     margin:0;
     padding: 0;
-    height: 5vh;
+    height: 8vh;
     background-color: black;
     z-index: 2;
     position: fixed;
@@ -12,16 +12,17 @@
     padding-top: 2vh;
     display: flex;
     flex-direction: row;
-    column-gap: 3rem;
+    column-gap: 5%;
     justify-content: center;
     margin:0;
 }
 
 #item {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: .5rem;
-    font-size: 1.7rem;
+    font-size: 110%;
     color: #ede544;
     text-shadow: 
     0 0 15px rgb(255, 0, 0),

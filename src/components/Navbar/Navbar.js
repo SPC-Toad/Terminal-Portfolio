@@ -12,7 +12,7 @@ function Navbar() {
           <ul className='list'>
             <Link id='item' to="intro-container" spy={true} smooth={true} offset={50} duration={500}>
               <AiIcons.AiOutlineHome />
-              <span>INTRODUCTION</span>
+              <span>INTRO</span>
             </Link>
 
             <Link id='item' to="about-container" spy={true} smooth={true} offset={-70} duration={500}>
