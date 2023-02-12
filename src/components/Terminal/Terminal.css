@@ -34,6 +34,7 @@ input {
     color: orange;
     font-size: 2rem;
     font-weight: 500;
+    font-family: 'Kanit', sans-serif;
 }
 
 #output-line1 {

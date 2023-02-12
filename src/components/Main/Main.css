@@ -1,43 +1,85 @@
-.container {
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,700;0,800;1,700;1,800&display=swap');
+
+body {
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    color: azure;
-    font-size: 2rem;
-}
-
-.intro-container {
     background-color: black;
-    color: azure;
-    height: 100vh;
+}
+
+.section-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    font-family: 'Prompt', sans-serif;
+    font-size: 5rem;
+}
+
+.section-title {
+    color: #ede544;
+    text-shadow: 
+    0 0 15px rgb(255, 0, 0),
+    0 0 10px rgb(255, 0, 0),
+    0 0 5px rgb(255, 0, 0),
+    0 0 3px rgb(255, 0, 0),
+    0 0 2px rgb(255, 0, 0);
+    font-size: 3.5rem;
+    margin-bottom: 5vh;
+}
+
+.name {
+    color: #ede544;
+    text-shadow: 
+    0 0 15px rgb(255, 0, 0),
+    0 0 10px rgb(255, 0, 0),
+    0 0 5px rgb(255, 0, 0),
+    0 0 3px rgb(255, 0, 0),
+    0 0 2px rgb(255, 0, 0);
+}
+
+.description {
+    color: #ede544;
+    text-shadow: 
+    0 0 15px rgb(255, 0, 0),
+    0 0 10px rgb(255, 0, 0),
+    0 0 5px rgb(255, 0, 0),
+    0 0 3px rgb(255, 0, 0),
+    0 0 2px rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+}
+
+.description2 {
+    color: #ede544;
+    text-shadow: 
+    0 0 15px rgb(255, 0, 0),
+    0 0 10px rgb(255, 0, 0),
+    0 0 5px rgb(255, 0, 0),
+    0 0 3px rgb(255, 0, 0),
+    0 0 2px rgb(255, 0, 0);
+    display: flex;
     align-items: center;
     font-size: 2rem;
+    width: 75%;
 }
 
-#title {
-    padding: 0;
-    margin: 0;
-    padding-bottom: 5vh;
-    padding-top: 5vh;
+.resume-button {
     display: flex;
+    text-decoration: none;
+    font-size: xx-large;
+    font-weight: 500;
+    width: 15rem;
+    height: 3.5rem;
     justify-content: center;
-}
-
-.my-description {
-    display: flex;
-}
-
-.About {
-    min-height: 100vh;
-    background-color: grey;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    padding-top: 10vh;
+    color: #ede544;
+    border-style:solid;
+}
+
+.resume-button:hover {
+  transform: translateY(-0.25em);
+  box-shadow: 0px 20px 20px -13px rgb(255, 0, 0);
 }
 
 .project-container {
@@ -46,33 +88,36 @@
     gap: 3rem;
 }
 
-.Military {
+.skill-section {
+    width: 75%;
+}
+
+
+.description3 {
+    color: #ede544;
+    text-shadow: 
+    0 0 15px rgb(255, 0, 0),
+    0 0 10px rgb(255, 0, 0),
+    0 0 5px rgb(255, 0, 0),
+    0 0 3px rgb(255, 0, 0),
+    0 0 2px rgb(255, 0, 0);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    font-size: 2rem;
+    width: 40rem;
+    list-style: none;
 }
 
-.Ultimate_Goal {
+.description3 li {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    gap: 1rem;
 }
 
-
-#about-descripton {
+.description3 a {
     display: flex;
-    justify-self: center;
-    flex-wrap: wrap;
-    width: 60%;
-}
-
-
-.Contact {
-    background-color: black;
-}
-
-.Contact span{
+    align-items: center;
+    gap: 1rem;
     text-decoration: none;
+    color: inherit;
 }
