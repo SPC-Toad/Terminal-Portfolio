@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,500;1,300;1,500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.loading-container {
+    background-color: black;
+    color: orange;
+    height: 100vh;
+    padding:1rem;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+.input-container {
+    display: flex;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.intro-text {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+input {
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    color: orange;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#output-line1 {
+    display: flex;
+    color: orange;
+}
+
+.terminal {
+    color: azure;
+    font-size: 2rem;
+    font-weight: 500;
+}

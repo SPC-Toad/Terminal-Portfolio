@@ -1,0 +1,44 @@
+.card-container {
+    background-color: grey;
+    width: 20rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+.card-container:hover {
+    transform:scale(1.05);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    object-fit: cover;
+    height: 33vh;
+    border-radius: 10px;
+}
+
+
+.card-title {
+    font-size: 140%;
+    margin-left: 3%;
+}
+
+h3 {
+    margin-block-start: 1vh;
+    margin-block-end: 1vh;
+}
+
+.body-text {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    overflow-y: auto;
+    font-size: large;
+    font-weight: 600;
+    height: 10vh;
+}

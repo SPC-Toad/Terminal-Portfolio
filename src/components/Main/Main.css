@@ -1,0 +1,78 @@
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    font-size: 2rem;
+}
+
+.intro-container {
+    background-color: black;
+    color: azure;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+#title {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.my-description {
+    display: flex;
+}
+
+.About {
+    min-height: 100vh;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.Military {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ultimate_Goal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#about-descripton {
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+
+.Contact {
+    background-color: black;
+}
+
+.Contact span{
+    text-decoration: none;
+}
