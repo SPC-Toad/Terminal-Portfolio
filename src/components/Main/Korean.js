@@ -3,7 +3,7 @@ import Typing from 'react-typed';
 import './Main.css';
 import Card from '../Card/Card';
 import Skill from '../Skill/Skillbar';
-import Navbar_kr from '../Navbar/Navbar_kr';
+import NavbarKR from '../Navbar/NavbarKR';
 
 import * as AiIcons from 'react-icons/ai';
 
@@ -17,7 +17,7 @@ import resume from '../../image/resume.pdf';
 export default function Korean() {
   return (
     <>
-      <Navbar_kr />
+      <NavbarKR />
       <div className='section-container' id='intro-container'>
         <div className='name'>김상윤</div>
         <div className='description'>

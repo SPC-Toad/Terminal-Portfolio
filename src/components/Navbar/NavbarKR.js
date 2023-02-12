@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 import './Navbar.css';
 import { IconContext } from 'react-icons';
 
-function Navbar_kr() {
+function NavbarKR() {
   return (
     <>
       <IconContext.Provider value={{ color: "#ede544" }}>
@@ -46,4 +46,4 @@ function Navbar_kr() {
   );
 }
 
-export default Navbar_kr;
+export default NavbarKR;
