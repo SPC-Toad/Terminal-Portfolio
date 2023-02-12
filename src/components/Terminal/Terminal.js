@@ -21,6 +21,7 @@ function Terminal() {
             Welcome to my portfolio website!<br/>
             If you are lost, don't worry!<br/>
             Type "ls" in terminal to see all features!<br/>
+            Type "help" in terminal if you need assistance!<br/>
         </p>
 
         <p className='terminal'>
